@@ -3,7 +3,7 @@ body {
    margin: 0;
    font-family: 'Noto Sans', sans-serif;
    font-weight: normal;
-   background-color: #F1F1F6;
+   background-color: #E8E8E8;
    text-align: center;
    color: #393E46;
 }
@@ -70,7 +70,7 @@ p {
 
 .cover-navbar a {
    text-decoration: none;
-   color: #F1F1F6;
+   color: #E8E8E8;
 }
 
 .cover-navbar a:hover {
@@ -81,14 +81,14 @@ p {
    height: fit-content;
    width: fit-content;
    text-align: center;
-   color: #F1F1F6;
+   color: #E8E8E8;
    position: absolute;
    inset: 0;
    margin: 39vh auto auto;
 }
 
 .cover-title {
-   color: #F1F1F6;
+   color: #E8E8E8;
    font-family: 'Varela Round', sans-serif;
    font-size: 4rem;
    font-weight: bold;
@@ -105,7 +105,7 @@ p {
 }
 
 .cover-hr {
-   color: #F1F1F6;
+   color: #E8E8E8;
    border-style: solid none none;
    border-width: 1px;
    width: 100%;
@@ -115,11 +115,11 @@ p {
 /******************** Navbar Styling ********************/
 .navbar {
    position: fixed;
-   top: 8rem;
+   top: 8.5rem;
    left: 3rem;
    width: fit-content;
    background-color: #393E46;
-   color: #F1F1F6;
+   color: #E8E8E8;
    border-radius: .5rem;
 }
 
@@ -140,7 +140,7 @@ p {
    height: fit-content;
    width: fit-content;
    text-decoration: none;
-   color: #F1F1F6;
+   color: #E8E8E8;
    position: absolute;
    inset: 0;
    margin: auto;
@@ -187,10 +187,11 @@ p {
 .about-me h2 {
    font-size: 1.5rem;
    letter-spacing: .1rem;
+   color: #937DC2;
 }
 
 .about-me hr {
-   color: #393E46;
+   color: #937DC2;
    border-style: solid none none;
    border-width: 1px;
    margin-bottom: 1rem;
