@@ -48,6 +48,35 @@ p {
    background: fixed url(../images/cover-image.png);
 }
 
+.cover-navbar {
+	width: fit-content;
+   height: 5rem;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.cover-navbar ul {
+   height: 3rem;
+   margin: 0;
+   padding: 2rem 3rem 0;
+   text-align: left;
+}
+
+.cover-navbar li {
+	display: inline;
+   margin-left: 2rem;
+}
+
+.cover-navbar a {
+   text-decoration: none;
+   color: #F1F1F6;
+}
+
+.cover-navbar a:hover {
+   color: #937DC2;
+}
+
 .cover-content {
    height: fit-content;
    width: fit-content;
@@ -55,7 +84,7 @@ p {
    color: #F1F1F6;
    position: absolute;
    inset: 0;
-   margin: 37vh auto auto;
+   margin: 39vh auto auto;
 }
 
 .cover-title {
