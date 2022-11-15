@@ -37,7 +37,6 @@ hr {
 p {
    margin-top: 0;
    margin-bottom: .5rem;
-   max-width: 50vw;
    overflow-wrap: break-word;
 }
 
@@ -125,20 +124,15 @@ p {
 
 /******************** Main Page Elements Styling ********************/
 .page {
-   width: 50vw;
+   width: 60vw;
+   max-width: 800px;
    margin: 0 auto 5rem;
    padding-top: 3rem;
 }
 
-.profile {
-   max-width: 600px;
-}
-
 .profile-content {
    height: 200px;
-   width: 50vw;
-   max-width: 600px;
-   margin: 3rem auto 2rem;
+   margin: 3rem 0 2rem;
    position: relative;
 }
 
@@ -152,13 +146,13 @@ p {
    width: fit-content;
    position: absolute;
    inset: 0 0 0 220px;
-   margin: auto auto;
+   margin: auto 1rem;
    text-align: left;
 }
 
 .about-me {
    margin-top: 2rem;
-   text-align: left;
+   text-align: justify;
 }
 
 .about-me h2 {
@@ -174,12 +168,11 @@ p {
 }
 
 .about-me .hr1 {
-   width: 2vw;
+   width: 3rem;
    margin-right: 1rem;
 }
 
 .about-me .hr2 {
-   width: 10rem;
-   max-width: 400px;
+   width: 15rem;
    margin-left: 1rem;
 }
