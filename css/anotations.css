@@ -1,0 +1,66 @@
+/*
+   - HTML elements já tem suas definições próprias de algun parâmetros
+
+   - Nem sempre as margens de 2 elementos são excludentes, elas podem se sobrepor uma à outra
+
+   - HTML elements têm seu display já setado, sendo inline, block, inline-block ou none
+
+   - Block display permite alteração de largura, enquanto inline não
+
+   - Inline-block permite alteração de largura enquanto deixa os objetos na mesma linha
+
+
+   - Positioning (Static, Fixed, Relative, Absolute, Sticky)
+      - Static é quando os elementos seguem exatamente sua pré-definição e o que foi estipulado no arquivo html
+
+      - Fixed é quando algo está preso na tela naquela posição, independente de scroll
+
+      - Relative permite que usemos os atributos top, right, left, bottom para especificar um posicionamento
+      relativo para o elemento, ou seja, pegamos a sua posição inicial e jogamos um valor para a direção desejada
+
+      - Elementos com posição Relative não afetam o posicionamento de mais nada na tela, ou seja, caso existam
+      outros elementos, o elemento relative pode ficar acima ou abaixo deles, enquanto os outros elementos se
+      posicionam consideram a posição Fixed daquele objeto Relative
+
+      - Relative funciona como uma margem, porém permitindo que elementos se sobreponham
+
+      - Absolute positioning posiciona um elemento relativo a seu parent, então setar right = 30px em um elemento
+      absolute faz com que ele seja deslocado 30pc para a esquerda da mergem direita de seu parent
+
+      - Absolute positioning afeta o posicionamento de outros elementos e também permite sobreposição
+      
+      - Absolute positioning não considera margem, e sim o início do elemento independente desses espaçamentos e só
+      funciona caso o parent tenha posicionamento qualquer QUE NÃO static (pode ser fixed)
+
+      - Sticky é parecido com o Fixed, mas em vez de ficar fixo numa posição da tela, o elemento tem uma posição
+      porém ele se mantém fixa quanto ao scrolling. Ou seja, ele pode ser movimentado até sair o momento em que
+      sairia da tela, quando fica fixo na extremidade do scroll
+   
+   
+   - Centralizando Elementos
+      - Elementos com inline display ou block display que pegam a largura toda da tela podem ser centralizados
+      usando text-align: center no parent. Porém, caso o block element tenha sua largura alterada, isso já
+      não é mais possível, ou seja, text-align funciona para tudo que não tenha width setado
+
+      - É possível centralizar elementos setando margin: auto neles também (funciona com block)
+
+      
+   - Podemos usar a tag <span> para selecionar um elemento dentro de um bloco de texto para estilizar diferente
+
+   - Declarar tamnho da fonte usando font-size: Kpx faz com que a fonte não seja dinâmica e não possa ser alterada
+   caso alguém mude a fonte nas preferências de acessibilidade. Para torná-la dinâmica podemos usar porcentagem ou
+   a unidade em, sendo 100% = 16px = 1em, por padrão
+
+   - Tanto a porcentagem quanto em são relativos à font-size de seus parents, ou seja, se dentro de uma div um
+   elemento está com 1em mas essa div tem font-size de 2em, então a div tem font-size de 2*16 = 32px e o elemento
+   dentro dela 1*32 = 32px
+
+   - Para ignorar os parents e sempre se referir aos 16px padrão, ou a configuração de acessibilidade do navegador,
+   basta usar a unidade rem ao invés de em
+
+   - Para fazer com que imagens fiquem ao lado de texto dentro de uma mesma div, basta setarmos o atributo float
+   para a direção em que queremos a imagem (left ou right)
+
+   - Para evitar que parte do texto seja jogado para o lado da imagem podemos, no texto, editar o atributo clear
+
+*/

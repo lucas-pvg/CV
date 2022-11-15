@@ -3,26 +3,87 @@
 
 <head>
    <meta charset="UTF-8" />
-   <title>Lucas Persnoal Site</title>
+   <title>Lucas Web CV</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="icon" href="./images/programming.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Varela+Round&display=swap">
 </head>
 
 <body>
-   <center>
-      <img height="200" width="200" src="./images/IMG_20221017_125409_862.jpg" alt="Lucas Profila Picture">
-      <h1>Lucas Pavan Garieri</h1>
-      <p><em>Student at University of Sao Paulo</em></p>
-      <p><em>Ongoing graduation on Computer Engineering</em></p>
-   </center>
+   <div class="cover">
+      <div class="cover-content">
+         <h1 class="cover-title">Lucas Pavan Garieri</h1>
+         <hr class="cover-hr">
+         <h3 class="cover-subtitle">A programmer and web designer</h3>
+      </div>
+   </div>   
 
-   <br>
-   <p>blablablablabal <br> blablabla</p>
-   <hr>
-   <table>
-      <tr>
-         <td>blabla</td>
-         <td>blabla</td>
-      </tr>
-   </table>
+   <nav class="navbar">
+      <ul>
+         <li><a href="#profile">Profile</a></li>
+         <li><a href="#education">Education</a></li>
+         <li><a href="#skills">Skills</a></li>
+         <li><a href="#experience">Experience</a></li>
+         <li><a href="#projects">Projects</a></li>
+         <li><a href="#contacts">Contacts</a></li>
+      </ul>
+   </nav>
+
+   <div class="profile page" id="profile">
+      <h1>Profile</h1>
+      <hr>
+
+      <div class="profile-content">
+         <img height="200" width="200" src="./images/IMG_20221017_125409_862.jpg" alt="Lucas Profila Picture">
+         <div>
+            <h2>Lucas Pavan Garieri</h2>
+            <p><em>Student at University of Sao Paulo</em></p>
+            <p><em>Ongoing graduation in Computer Engineering</em></p>
+         </div>
+      </div>
+
+      <div class="about-me">
+         <table>
+            <tr>
+               <td><hr class="hr1"></td>
+               <td><h2>About Me</h2></td>
+               <td><hr class="hr2"></td>
+            </tr>
+         </table>
+         
+         <p>blablablablablablabalblablablablablablabalblablablablablablabalblablablablablablabalblablablablablablabal
+         blablablablablablabalblablablablablablabalblablablablablablabalblablablablablablabalblablablabl
+         blablablablablablabalblablablablablablabalblablablablablablabalblablablablablablabalblablablablablablabal
+         blablablablablablabalblablablablablablabalblablablablablablabalblablablablablablabalblablablablablablabal</p>
+      </div>
+   </div>
+   
+   <div class="education page" id="education">
+      <h1>Education</h1>
+      <hr>
+   </div>
+
+   <div class="skills page" id="skills">
+      <h1>Skills</h1>
+      <hr>
+   </div>
+      
+   <div class="experience page" id="experience">
+      <h1>Experience</h1>
+      <hr>
+   </div>
+      
+   <div class="projects page" id="projects">
+      <h1>Projects</h1>
+      <hr>
+   </div>
+      
+   <div class="contacts page" id="contacts">
+      <h1>Contacts</h1>
+      <hr>
+   </div>
 </body>
 
 </html>
