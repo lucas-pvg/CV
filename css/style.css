@@ -157,6 +157,30 @@ p {
    color: #937DC2;
 }
 
+.up-button {
+   width: 5rem;
+   height: 2.5rem;
+   position: sticky;
+   top: 0;
+   right: 4rem;
+   float: right;
+   background-color: #937DC2;
+   border-radius: 0 0 .5rem .5rem;
+}
+
+.up-button a {
+   display: inline-block;
+   width: inherit;
+   height: inherit;
+}
+
+.up-button img {
+   width: 1.5vw;
+   position: absolute;
+   inset: 0;
+   margin: auto;
+}
+
 
 /******************** Main Page Elements Styling ********************/
 .page {
