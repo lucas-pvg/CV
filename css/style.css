@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-   color: #937DC2;
+   color: #8B75BB;
    font-family: 'Varela Round', sans-serif;
    font-size: 3rem;
    font-weight: normal;
@@ -33,7 +33,7 @@ h2 {
 hr {
    border-style: dotted none none;
    border-width: 8px;
-   color: #937DC2;
+   color: #8B75BB;
    opacity: 50%;
    width: 5%;
 }
@@ -78,7 +78,7 @@ p {
 }
 
 .cover-navbar a:hover {
-   color: #937DC2;
+   color: #8B75BB;
 }
 
 .cover-content {
@@ -154,7 +154,7 @@ p {
 }
 
 .navbar a:hover {
-   color: #937DC2;
+   color: #8B75BB;
 }
 
 .up-button {
@@ -164,7 +164,7 @@ p {
    top: 0;
    right: 8vw;
    float: right;
-   background-color: #937DC2;
+   background-color: #8B75BB;
    border-radius: 0 0 .5rem .5rem;
 }
 
@@ -218,11 +218,11 @@ p {
 .about-me h2 {
    font-size: 1.5rem;
    letter-spacing: .1rem;
-   color: #937DC2;
+   color: #8B75BB;
 }
 
 .about-me hr {
-   color: #937DC2;
+   color: #8B75BB;
    border-style: solid none none;
    border-width: 1px;
    margin-bottom: 1rem;
