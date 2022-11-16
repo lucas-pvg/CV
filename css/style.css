@@ -120,10 +120,10 @@ p {
 .navbar {
    width: fit-content;
    position: sticky;
-   top: 8.5rem;
-   left: 3rem;
+   top: 8.8rem;
+   left: 4rem;
    float: left;
-   margin-top: 3rem;
+   margin-top: 4rem;
    background-color: #393E46;
    color: #E8E8E8;
    border-radius: .5rem;
@@ -137,7 +137,7 @@ p {
 
 .navbar li {
    height: 4.5rem;
-   width: 7rem;
+   width: 6.5rem;
    text-align: center;
    position: relative;
 }
@@ -146,6 +146,7 @@ p {
    height: fit-content;
    width: fit-content;
    text-decoration: none;
+   font-size: .9rem;
    color: #E8E8E8;
    position: absolute;
    inset: 0;
