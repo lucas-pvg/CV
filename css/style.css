@@ -142,6 +142,14 @@ p {
    position: relative;
 }
 
+.navbar .first {
+   border-radius: .5rem .5rem 0 0;
+}
+
+.navbar .last {
+   border-radius: 0 0 .5rem .5rem;
+}
+
 .navbar a {
    height: fit-content;
    width: fit-content;
@@ -156,6 +164,15 @@ p {
 .navbar a:hover {
    color: #8B75BB;
 }
+
+.navbar-active {
+   background-color: #8B75BB;
+}
+
+.navbar-active a:hover {
+   color: #E8E8E8;
+}
+
 
 .up-button {
    width: 5rem;
