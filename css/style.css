@@ -124,6 +124,37 @@ p {
    width: 100%;
 }
 
+.cover-down-arrow {
+   position: absolute;
+   bottom: 2rem;
+   right: 0;
+   left: 0;
+   margin: auto;
+}
+
+.cover-down-arrow a{
+   display: inline-block;
+   height: fit-content;
+   width: fit-content;
+}
+
+.cover-down-arrow img {
+   width: 2.5vw;
+   -webkit-animation: MoveUpDown .5s linear infinite alternate;
+   animation: MoveUpDown .5s linear infinite alternate;
+}
+
+@-webkit-keyframes MoveUpDown {
+   0% { transform: translateY(0); }
+   100% { transform: translateY(-12px); }
+}
+
+@keyframes MoveUpDown {
+   0% { transform: translateY(0); }
+   100% { transform: translateY(-12px); }
+}
+
+
 
 /******************** Navbar Styling ********************/
 .navbar {
