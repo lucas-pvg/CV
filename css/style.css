@@ -191,18 +191,25 @@ p {
 }
 
 .navbar a {
-   height: fit-content;
-   width: fit-content;
+   display: block;
+   height: inherit;
+   width: inherit;
+   position: relative;
    text-decoration: none;
    font-size: .9rem;
    color: #E8E8E8;
-   position: absolute;
-   inset: 0;
-   margin: auto;
 }
 
 .navbar a:hover {
    color: #8B75BB;
+}
+
+.navbar a span {
+   height: fit-content;
+   width: fit-content;
+   position: absolute;
+   inset: 0;
+   margin: auto;
 }
 
 .navbar-active {
