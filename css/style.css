@@ -161,7 +161,7 @@ p {
    width: fit-content;
    position: sticky;
    top: 8.8rem;
-   left: 5vw;
+   left: 5.5vw;
    float: left;
    margin-top: 5vw;
    background-color: #393E46;
@@ -177,7 +177,7 @@ p {
 
 .navbar li {
    height: 4.5rem;
-   width: 6.5rem;
+   width: 6rem;
    text-align: center;
    position: relative;
 }
@@ -222,11 +222,11 @@ p {
 
 
 .up-button {
-   width: 5rem;
+   width: 4.5rem;
    height: 2.5rem;
    position: sticky;
    top: 0;
-   right: 8vw;
+   right: 9vw;
    float: right;
    background-color: #8B75BB;
    border-radius: 0 0 .5rem .5rem;
@@ -250,8 +250,9 @@ p {
 .page {
    width: 60vw;
    max-width: 800px;
-   margin: 0 auto 5rem;
+   margin: 0 auto;
    padding-top: 3rem;
+   padding-bottom: 5rem;
 }
 
 .profile-content {
@@ -300,4 +301,8 @@ p {
 .about-me .hr2 {
    width: 15rem;
    margin-left: 1rem;
+}
+
+.education-content {
+   margin-top: 4rem;
 }
