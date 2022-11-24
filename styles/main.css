@@ -1,0 +1,62 @@
+/******************** General Elements Styling ********************/
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   margin: 0;
+   font-family: 'Noto Sans', sans-serif;
+   font-weight: normal;
+   background-color: #E8E8E8;
+   text-align: center;
+   color: #393E46;
+
+   /* Hide scrollbar for Chrome, Safari and Opera */
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+   display: none;
+}
+
+h1 {
+   color: #8B75BB;
+   font-family: 'Varela Round', sans-serif;
+   font-size: 3rem;
+   font-weight: normal;
+   line-height: 1.2;
+   letter-spacing: .4rem;
+   margin: 0;
+}
+
+h2 {
+   font-size: 2rem;
+   line-height: 1.2;
+   letter-spacing: .2rem;
+   margin-top: 0;
+   margin-bottom: 1rem;
+}
+
+hr {
+   border-style: dotted none none;
+   border-width: 8px;
+   color: #8B75BB;
+   opacity: 50%;
+   width: 5%;
+}
+
+p {
+   margin-top: 0;
+   margin-bottom: .5rem;
+   overflow-wrap: break-word;
+}
+
+a {
+   display: inline-block;
+   height: inherit;
+   width: inherit;
+   text-decoration: none;
+}
