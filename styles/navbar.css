@@ -1,0 +1,79 @@
+/******************** Navbar Styling ********************/
+
+.navbar {
+   width: fit-content;
+   position: sticky;
+   top: 8.8rem;
+   left: 5.5vw;
+   float: left;
+   margin-top: 5vw;
+   background-color: #393E46;
+   color: #E8E8E8;
+   border-radius: .5rem;
+}
+
+.navbar ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.navbar li {
+   height: 4.5rem;
+   width: 6rem;
+   text-align: center;
+   position: relative;
+}
+
+.navbar .first {
+   border-radius: .5rem .5rem 0 0;
+}
+
+.navbar .last {
+   border-radius: 0 0 .5rem .5rem;
+}
+
+.navbar a {
+   position: relative;
+   font-size: .9rem;
+   color: #E8E8E8;
+}
+
+.navbar a:hover {
+   color: #8B75BB;
+}
+
+.navbar a span {
+   height: fit-content;
+   width: fit-content;
+   position: absolute;
+   inset: 0;
+   margin: auto;
+}
+
+.navbar-active {
+   background-color: #8B75BB;
+}
+
+.navbar-active a:hover {
+   color: #E8E8E8;
+}
+
+
+.up-button {
+   width: 4.5rem;
+   height: 2.5rem;
+   position: sticky;
+   top: 0;
+   right: 9vw;
+   float: right;
+   background-color: #8B75BB;
+   border-radius: 0 0 .5rem .5rem;
+}
+
+.up-button img {
+   width: 1.5vw;
+   position: absolute;
+   inset: 0;
+   margin: auto;
+}

@@ -1,0 +1,60 @@
+/******************** Main Page Elements Styling ********************/
+
+.page {
+   width: 60vw;
+   max-width: 800px;
+   margin: 0 auto;
+   padding-top: 3rem;
+   padding-bottom: 5rem;
+}
+
+.profile-content {
+   height: 200px;
+   margin: 3rem 0 2rem;
+   position: relative;
+}
+
+.profile-content img{
+   float: left;
+   border-radius: 100%;
+}
+
+.profile-content div {
+   height: fit-content;
+   width: fit-content;
+   position: absolute;
+   inset: 0 0 0 220px;
+   margin: auto 1rem;
+   text-align: left;
+}
+
+.about-me {
+   margin-top: 2rem;
+   text-align: justify;
+}
+
+.about-me h2 {
+   font-size: 1.5rem;
+   letter-spacing: .1rem;
+   color: #8B75BB;
+}
+
+.about-me hr {
+   border-style: solid none none;
+   border-width: 1px;
+   margin-bottom: 1rem;
+}
+
+.about-me .hr1 {
+   width: 3rem;
+   margin-right: 1rem;
+}
+
+.about-me .hr2 {
+   width: 15rem;
+   margin-left: 1rem;
+}
+
+.education-content {
+   margin-top: 4rem;
+}
