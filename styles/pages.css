@@ -90,3 +90,29 @@
    font-weight:lighter;
    text-align: justify;
 }
+
+.certificate-container {
+   width: 100%;
+   overflow-x: scroll;
+   overflow-y: hidden;
+   white-space: nowrap;
+   margin: 2rem 0;
+
+   /* Hide scrollbar for Chrome, Safari and Opera */
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.certificate-container::-webkit-scrollbar {
+   display: none;
+}
+
+.certificate {
+   display: inline-block;
+   margin-right: 2rem;
+}
+
+.certificate img {
+   width: 18vw;
+}
