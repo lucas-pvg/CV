@@ -5,7 +5,7 @@
    max-width: 800px;
    margin: 0 auto;
    padding-top: 3rem;
-   padding-bottom: 5rem;
+   padding-bottom: 3rem;
 }
 
 .profile-content {
@@ -28,33 +28,65 @@
    text-align: left;
 }
 
-.about-me {
+.page-subtitle {
    margin-top: 2rem;
    text-align: justify;
 }
 
-.about-me h2 {
+.page-subtitle h2 {
    font-size: 1.5rem;
    letter-spacing: .1rem;
    color: #8B75BB;
 }
 
-.about-me hr {
+.page-subtitle hr {
    border-style: solid none none;
    border-width: 1px;
    margin-bottom: 1rem;
 }
 
-.about-me .hr1 {
+.page-subtitle .hr1 {
    width: 3rem;
    margin-right: 1rem;
 }
 
-.about-me .hr2 {
+.page-subtitle .hr2 {
    width: 15rem;
    margin-left: 1rem;
 }
 
-.education-content {
+.graduation, .careers {
    margin-top: 4rem;
+}
+
+.table {
+   width: 100%;
+   text-align: left;
+   padding: 1rem;
+}
+
+.table tr {
+   height: 2rem;
+   vertical-align: initial;
+}
+
+.table .last1 {
+   height: 8rem;
+}
+
+.table .title {
+   width: 38%;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+.table .subtitle {
+   font-size: 1rem;
+   font-weight: bold;
+}
+
+.table .time, .description {
+   font-size: .8  rem;
+   font-weight:lighter;
+   text-align: justify;
 }
