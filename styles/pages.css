@@ -116,3 +116,46 @@
 .certificate img {
    width: 18vw;
 }
+
+.certificate a {
+   position: relative;
+   background-color: #8B75BB;
+}
+
+.certificate .text {
+   height: inherit;
+   width: inherit;
+   position: absolute;
+   inset: 0;
+   background-color: #8B75BB;
+   color: #E8E8E8;
+   visibility: hidden;
+   opacity: 0;
+
+   -webkit-transition: visibility 0s, opacity 0.3s linear; 
+   transition: visibility 0s, opacity 0.3s linear;
+}
+
+.certificate .title {
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 1.2rem;
+   font-weight: bold;
+   letter-spacing: .08rem;
+}
+
+.certificate .subtitle {
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 1rem;
+   font-weight: lighter;
+}
+
+.certificate a:hover .text{
+   visibility: visible;
+   opacity: 0.9;
+}
