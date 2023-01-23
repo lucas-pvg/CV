@@ -118,42 +118,50 @@
 }
 
 .certificate a {
+   margin: 0 auto;
+   padding-bottom: .3rem;
    position: relative;
+   display: flex;
    background-color: #8B75BB;
+   white-space: normal;
 }
 
 .certificate .text {
    height: inherit;
    width: inherit;
+   padding: 0 .5rem;
    position: absolute;
    inset: 0;
    background-color: #8B75BB;
    color: #E8E8E8;
    visibility: hidden;
    opacity: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: .8rem;
 
    -webkit-transition: visibility 0s, opacity 0.3s linear; 
    transition: visibility 0s, opacity 0.3s linear;
 }
 
 .certificate .title {
-   position: absolute;
-   top: 45%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   margin: 0;
    font-family: 'Varela Round', sans-serif;
    font-size: 1.2rem;
    font-weight: bold;
    letter-spacing: .08rem;
+   word-wrap: break-word;
+   word-break: break-word;
+   text-align: center;
 }
 
 .certificate .subtitle {
-   position: absolute;
-   top: 58%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   margin: 0;
    font-size: 1rem;
    font-weight: lighter;
+
 }
 
 .certificate a:hover .text{
