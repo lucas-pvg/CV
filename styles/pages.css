@@ -149,17 +149,16 @@
 .certificate .title {
    margin: 0;
    font-family: 'Varela Round', sans-serif;
-   font-size: 1.2rem;
+   font-size: 1.3vw;
    font-weight: bold;
    letter-spacing: .08rem;
-   word-wrap: break-word;
    word-break: break-word;
    text-align: center;
 }
 
 .certificate .subtitle {
    margin: 0;
-   font-size: 1rem;
+   font-size: 1.1vw;
    font-weight: lighter;
 
 }
